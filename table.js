@@ -7,4 +7,4 @@ function multiplication()
 
 	document.write(nb+" x "+i+" = "+nb*i+"<br />");
 	}
-}
+} 
