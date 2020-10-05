@@ -1,0 +1,159 @@
+ @font-face {
+        font-family: "Monserrat-ExtraLight";
+       src: url('./font/Montserrat-ExtraLight.ttf') format(truetype);
+
+}    
+@font-face {
+        font-family: "Monserrat-Regular";
+       src: url('./font/Montserrat-Regular.ttf') format(truetype);
+}       /* Pour les nouvelles polices de caractères */
+
+body {
+       font-family: "Monserrat-ExtraLight","Monserrat-Regular", Arial, Helvetica, sans-serif;
+        margin : 0px;
+
+
+}       /* pour toute la page */
+                
+a {
+	color : #0474baec ;       
+}       /* Pour la couleur du tag A */
+
+nav {
+	height : 70px;
+}       /* Pour donner une hauteur au tag nav */
+       
+nav h2 {
+	padding : 20px 0 20px 15px;
+	margin : 0;
+    float : left;
+    color: #0475BA ;
+}       /* Pour bien placer le tag h2 dans le premier nav */
+
+nav ul {
+	margin : 0;
+	list-style : none;
+	float : left;
+	padding : 24px;
+}        /* Pour bien placer le tag ul du premier nav et enlever les points */
+
+nav li {
+	float : left;
+	margin-left : 15px;
+}        /* Pour bien placer le tag li du premier nav */
+       
+.content {
+    max-width: 800px ;
+    margin: 0 auto ;
+}        /* pour changer la max-width et la margin de cette classe content */
+
+header {
+	text-align: center;
+	padding : 40px;
+}        /* Pour mettre les textes au milieu la marge interieure dans le header */
+
+header h1 {
+    color: #0475BA ;
+}        /* pour changer la couleur du h1 du header  */
+
+#input1 {
+    width: 180px ;
+    height: 25px ;
+    border-width: thin ;
+    border-color: #0475BA ;
+    padding-left: 5px ;
+    border-radius: 3px ;
+    font-size: small ;
+}       /* input spécial au format mail */
+
+#input2 {
+    color : white;
+    background-color: #0475BA;
+    width: auto ;
+    height: 30px ;
+    border: none ;
+    border-radius: 3px ;
+
+}       /* input de bouton pour le formulaire */
+
+.secondary-block {
+    padding: 40px ;
+    margin: 0 auto ;
+    color : #FFF;
+    background-color : #0475BA;
+}        /* pour cette classe du tag nav et tous les tag : on donne la couleur et la background-color */
+
+.secondary-block span {
+        color: #69c1e4c5;
+}
+
+.titre {
+    padding: 40px ;
+    margin: 0 auto ;
+}       /* pour cette classe de section : on met les padding exterieurs et interieurs */
+       
+.titre h3 {
+    color: #0475BA ;
+
+}       /* pour donner la couleur au h3 de titre */
+        
+img {
+    width: 150px ;
+    height: 150px ;
+    border-radius: 75px ;
+}       /* pour dimensionner les trois images */
+        
+#div1 {
+        margin: 0 auto; 
+        padding: 40px;
+        width: 160px;
+        height: 160px;
+        text-align: center;
+        float: left;
+        margin-left: 60px;
+}       /* pour mettre la première photo avec son texte en dessous  */
+       
+#div2 {
+        margin: 0 auto; 
+        padding: 40px;
+        width: 160px;
+        height: 160px;
+        text-align: center;
+        float: left;
+}       /* pour mettre la deuxième photo avec son texte en dessous  */
+      
+#div3 {
+        margin: 0 auto; 
+        padding: 40px;
+        width: 160px;
+        height: 160px;
+        text-align: center;
+        float: right;
+        margin-right: 20px ;
+}       /* pour mettre la troisième photo avec son texte en dessous  */
+
+#box {
+        width: auto;
+        height: 450px;
+        margin: 0 auto;
+        padding: 0;
+}       /* pour dimensionner cet id */
+
+#box span {
+        color: #4d5558c5;
+}
+
+.list {
+        max-width: 800px ;
+        margin: 0 auto ;
+}       /* pour mettre les marges à cette classe */
+
+.list ul {
+        list-style: none ;
+        padding-left:0; 
+        color: #69c1e4c5;
+}       /* pour désactiver les puces */
+
+.list li {
+        margin-bottom: 8px;
+}       /* pour espacer les lignes de cette liste */
